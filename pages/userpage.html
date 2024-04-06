@@ -15,90 +15,101 @@
             font-style: italic;
             color: brown;
         }
+        /* .table
+        {
+        
+        } */
+
+       
     </style>
 </head>
 
-<body>
+<body style="background-color:bisque">
     <div class="page-header">
         <h1>Welcome to webstore</h1>
     </div>
 
-    <!-- <div class="container "> 
-        <div class="column">
-          <div class="col">
-            Books
-          </div>
-          <div class="col">
-            Magzines
-          </div>
-          <div class="col">
-            NEWS
-          </div>
-        </div>
-      </div>-->
-    <table class="table">
-        <tr>
-            <td style="width: 50px;">
-                <span style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">Books</span>
-            </td>
-            <td>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Select
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Story Books</a></li>
-                        <li><a class="dropdown-item" href="#">Chapter Books</a></li>
-                        <li><a class="dropdown-item" href="#">Novels</a></li>
-                        <li><a class="dropdown-item" href="#">Subject Books</a></li>
-                    </ul>
-                </div>
-            </td>
+    <div class=".container-fluid ">
+       
 
-        </tr>
-        <tr>
-            <td style="width: 50px;">
-                <span style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">Magazines</span>
-            </td>
-            <td>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Select
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Fashion</a></li>
-                        <li><a class="dropdown-item" href="#">Food</a></li>
-                        <li><a class="dropdown-item" href="#">Travel</a></li>
-                        <li><a class="dropdown-item" href="#">Design</a></li>
-                    </ul>
-                </div>
-            </td>
 
-        </tr>
-        <tr>
-            <td style="width: 50px;">
-                <span style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">NEWS</span>
-            </td>
-            <td>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Select
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">International</a></li>
-                        <li><a class="dropdown-item" href="#">Local</a></li>
-                        <li><a class="dropdown-item" href="#">Trending</a></li>
-                        <li><a class="dropdown-item" href="#">Hot Topics</a></li>
-                    </ul>
-                </div>
-            </td>
+        <!-- <div class="form-floating">
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Select your Books</option>
+    <option value="1">Story Books</option>
+    <option value="2">Comics</option>
+    <option value="3">Novels</option>
+  </select> -->
+        <!-- <label for="floatingSelect">Works with selects</label> </div>-->
+        <table class="table">
+            <tr class="table-success">
+                <td style="width: 50px;">
+                    <span
+                        style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">Books</span>
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Select
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Story Books</a></li>
+                            <li><a class="dropdown-item" href="#">Chapter Books</a></li>
+                            <li><a class="dropdown-item" href="#">Novels</a></li>
+                            <li><a class="dropdown-item" href="#">Subject Books</a></li>
+                        </ul>
+                    </div>
+                </td>
 
-        </tr>
+            </tr>
+            <tr class="table-danger">
+                <td style="width: 50px;">
+                    <span
+                        style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">Magazines</span>
+                    <!-- <span class="label label-info">Magazines</span> -->
 
-    </table>
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Select
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fashion</a></li>
+                            <li><a class="dropdown-item" href="#">Food</a></li>
+                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li><a class="dropdown-item" href="#">Design</a></li>
+                        </ul>
+                    </div>
+                </td>
+
+            </tr>
+            <tr class="table-warning">
+                <td style="width: 50px;">
+                    <span
+                        style="font-family:'Times New Roman', Times, serif  ; font-size:xx-large;font-weight: bolder;color: blue;">NEWS</span>
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Select
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">International</a></li>
+                            <li><a class="dropdown-item" href="#">Local</a></li>
+                            <li><a class="dropdown-item" href="#">Trending</a></li>
+                            <li><a class="dropdown-item" href="#">Hot Topics</a></li>
+                        </ul>
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
+    </div>
 
 </body>
 
